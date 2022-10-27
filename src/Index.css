@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+}
+#hero{
+    background-color: black;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.caption{
+    max-width: 50%;
+}
+.heroImage{
+    max-width: 40%
+}
