@@ -1,23 +1,92 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
-.header{
-    width: 100%;
+.navbar {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    color: white;  
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 14.5%;
+    padding-top: 15px;
+    text-align: start;
 }
-#hero{
+.navbar a {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+.navbar a:hover {
+    color: coral;
+}
+.logo {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.logo:hover {
+    color: white;
+}
+#hero {
+    height: 80vh;
     background-color: black;
     background-repeat:no-repeat;
     background-size: cover;
     color: white;
 }
-.container{
+.container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
-.caption{
-    max-width: 50%;
+.row {
+    display: flex;
+    align-items: center;    
 }
-.heroImage{
-    max-width: 40%
+.caption {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.description {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.image {
+    max-width: 40%;
+}
+.heroImage {
+    max-width: 100%
+}
+.heroButton {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1.5px;
+    font-size: 15px;
+    padding: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.heroButton:hover {
+    background-color: white;
+    color: black;
+    transition: .35s;
+}
+#about{
+    height: 80vh;
 }
