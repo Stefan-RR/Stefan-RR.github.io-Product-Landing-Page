@@ -95,13 +95,13 @@ h2 {
     transition: .35s;
 }
 #about {
-    height: 80vh;
+    height: 75vh;
 }
 .aboutContainer {
     display: flex;
     margin-right: 20%;
     margin-left: 20%;
-    padding-top: 9%
+    padding-top: 5%
 }
 .aboutImageDiv {
     max-width: 50%;
@@ -130,13 +130,40 @@ h2 {
     transition: .35s;
 }
 #packages {
-    height: 80vh;
+    height: 75vh;
     background-color: rgb(238, 238, 238);
+}
+.packagesContainer {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 5%
+}
+.packageRow {
+    display: flex;
+    text-align: center;
+}
+.pack {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
 }
 #reviews {
-    height: 80vh;
+    height: 75vh;
+}
+.reviewsContainer {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 5%
 }
 #contact {
-    height: 80vh;
+    height: 75vh;
     background-color: rgb(238, 238, 238);
+}
+.contactContainer {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 5%
 }
