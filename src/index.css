@@ -40,14 +40,14 @@ body {
     color: white;
 }
 .container {
-    max-width: 1500px;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-    max-width: 90%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,36 +82,6 @@ h2 {
     max-width: 100%;
     height: auto;
 }
-@media only screen and (min-width: 400px) and (max-width: 767px) {
-    .image { 
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .caption{
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20%;
-    }
-    #hero {
-        height: 100vh;
-    }
-    #about {
-        height: 100vh;
-    }
-    .aboutImageDiv {
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .aboutCaption {
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5%;
-    }
-}
 .heroButton {
     background-color: black;
     color: white;
@@ -134,7 +104,7 @@ h2 {
 }
 .aboutContainer {
     display: flex;
-    max-width: 1000px;
+    max-width: 75%;
     margin-right: auto;
     margin-left: auto;
     padding-top: 5%
@@ -152,6 +122,9 @@ h2 {
 .aboutImage {
     max-width: 90%;
     border-radius: 5px;
+}
+.aboutCaption {
+    max-width: 50%;
 }
 .aboutButton {
     background-color: white;
@@ -215,4 +188,40 @@ h2 {
     margin-left: 20%;
     padding-top: 5%;
     text-align: center;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .image { 
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .caption{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20%;
+    }
+    .aboutContainer {
+        max-width: 100%;
+    }
+    .aboutImageDiv {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutImage {
+        max-width: 100%;
+    }
+    .aboutCaption {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+    #hero {
+        height: 100vh;
+    }
+    #about {
+        height: 100vh;
+    }
 }
