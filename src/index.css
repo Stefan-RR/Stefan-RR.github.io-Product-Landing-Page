@@ -3,11 +3,12 @@ body {
     margin: 0;
 }
 .navbar {
+    display: flex;
     background-color: black;
     z-index: 5;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 90%;
     color: white;  
     font-size: 18px;
     font-weight: bold;
@@ -17,8 +18,7 @@ body {
     text-align: start;
 }
 .navbar a {
-    padding-left: 15px;
-    padding-right: 35px;
+    margin-left: 2%;
     text-decoration: none;
     color: white;
 }
@@ -40,21 +40,25 @@ body {
     color: white;
 }
 .container {
-    width: 100%;
+    max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
 }
 .row {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .caption {
-    max-width: 30%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 9%;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -69,13 +73,29 @@ h2 {
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .image {
     max-width: 50%;
 }
 .heroImage {
-    max-width: 100%
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .image { 
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .caption{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hero {
+        height: 100vh;
+    }
 }
 .heroButton {
     background-color: black;
@@ -86,8 +106,8 @@ h2 {
     border-width: 1.5px;
     font-size: 15px;
     padding: 12px;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
 .heroButton:hover {
     background-color: white;
@@ -156,7 +176,13 @@ h2 {
 .reviewsContainer {
     margin-right: 20%;
     margin-left: 20%;
-    padding-top: 5%
+    padding-top: 5%;
+    text-align: center;
+}
+.review{
+    background-color: rgb(238, 238, 238);
+    height: 400px;
+    width: 600px;
 }
 #contact {
     height: 75vh;
@@ -165,5 +191,6 @@ h2 {
 .contactContainer {
     margin-right: 20%;
     margin-left: 20%;
-    padding-top: 5%
+    padding-top: 5%;
+    text-align: center;
 }
