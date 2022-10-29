@@ -40,7 +40,7 @@ body {
     color: white;
 }
 .container {
-    max-width: 1400px;
+    max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -92,9 +92,21 @@ h2 {
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 20%;
     }
     #hero {
         height: 100vh;
+    }
+    .aboutImageDiv {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutCaption {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
     }
 }
 .heroButton {
@@ -119,13 +131,20 @@ h2 {
 }
 .aboutContainer {
     display: flex;
-    margin-right: 20%;
-    margin-left: 20%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 5%
+}
+.aboutRow{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .aboutImageDiv {
     max-width: 50%;
-    
 }
 .aboutImage {
     max-width: 90%;
