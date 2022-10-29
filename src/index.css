@@ -97,6 +97,9 @@ h2 {
     #hero {
         height: 100vh;
     }
+    #about {
+        height: 100vh;
+    }
     .aboutImageDiv {
         max-width: 80%;
         margin-left: auto;
