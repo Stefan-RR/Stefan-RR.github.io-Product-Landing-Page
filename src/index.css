@@ -266,10 +266,13 @@ h2 {
     }
     .pack h3 {
         margin-top: 1%;
-        margin-bottom: 1%;
+        margin-bottom: .5%;
     }
     .pack p {
         margin-bottom: 1%;
+    }
+    .packButton {
+        padding: 8px;
     }
     #hero {
         height: 100vh;
@@ -278,6 +281,6 @@ h2 {
         height: 100vh;
     }
     #packages {
-        height: 100vh;
+        height: 120vh;
     }
 }
