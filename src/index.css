@@ -2,28 +2,42 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+.navContainer {
+    max-width: 100%;
+}
 .navbar {
     display: flex;
+    justify-content: space-between;
     background-color: black;
     z-index: 5;
     position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    left: 0;
+    max-width: 100%;
     color: white;  
     font-size: 18px;
     font-weight: bold;
-    padding-left: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: start;
 }
+.links{
+    display: flex;
+    align-items: flex-end;
+}
 .navbar a {
-    margin-left: 2%;
+    margin-left: 30px;
     text-decoration: none;
     color: white;
 }
 .navbar a:hover {
     color: coral;
+}
+.navButton {
+    visibility: hidden;
 }
 .logo {
     font-size: 18px;
@@ -205,19 +219,68 @@ h2 {
 .review{
     background-color: rgb(238, 238, 238);
     height: 400px;
-    width: 600px;
+    width: 100px;
 }
 #contact {
     height: 75vh;
     background-color: rgb(238, 238, 238);
 }
 .contactContainer {
+    display: block;
     margin-right: 20%;
     margin-left: 20%;
     padding-top: 5%;
     text-align: center;
 }
+.contactForm {
+    max-width: 600px; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;;
+}
+.form {
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+}
+input {
+    height: 40px;
+}
+.message {
+    height: 100px;
+}
+.submit {
+    background-color: black;
+    color: white;
+    width: 200px;
+    align-self: center;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+    transition: .35s;
+    border-color: black;
+}
 @media only screen and (min-width: 400px) and (max-width: 767px) {
+    .navbar {
+        padding-left: 2%;
+    }
+    .navbar a {
+        visibility: hidden;
+    }
+    .navButton{
+        visibility: visible;
+        height: 25px;
+        width: 50px;
+        right: 0;
+    }
     .image { 
         max-width: 95%;
         margin-left: auto;

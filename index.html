@@ -12,16 +12,17 @@
 </head>
 <body>
     <header id="header">
-        <div class="container">
             <nav class="navbar">
-                <a class="logo">Logo.</a>
-                <a href="#hero">Home</a>
-                <a href="#about">About</a>
-                <a href="#packages">Packages</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
+                <span class="logo">Logo.</span>
+                <span class="links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#packages">Packages</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact">Contact</a>
+                    <button class="navButton">Menu</button>
+                </span>
             </nav>
-        </div>
     </header>
     <section id="hero">
         <div class="container">
@@ -105,7 +106,13 @@
     <section id="contact">
         <div class="contactContainer">
             <h2>Contact us</h2>
-            <p>Contact info</p>
+            <form class="contactForm">
+                <input class="name form" type="text" placeholder="Full Name">
+                <input class="email form" type="email" placeholder="Email">
+                <input class="phone form" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <textarea class="message form" placeholder="Message"></textarea>
+                <button class="submit form" type="submit">Submit</button>
+            </form>
         </div>
     </section>
 </body>
