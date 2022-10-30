@@ -259,7 +259,7 @@ input {
 .submit {
     background-color: black;
     color: white;
-    width: 200px;
+    width: 100px;
     align-self: center;
 }
 .submit:hover {
@@ -274,6 +274,7 @@ input {
     }
     .navbar a {
         visibility: hidden;
+        margin-left: 0;
     }
     .navButton{
         visibility: visible;
@@ -345,5 +346,9 @@ input {
     }
     #packages {
         height: 120vh;
+        
     }
+    .contactContainer {
+        margin-right: 10%;
+        margin-left: 10%;
 }
