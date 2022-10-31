@@ -28,12 +28,12 @@ body {
     display: flex;
     align-items: flex-end;
 }
-.navbar a {
+.navLink {
     margin-left: 30px;
     text-decoration: none;
     color: white;
 }
-.navbar a:hover {
+.navLink:hover {
     color: coral;
 }
 .navButton {
@@ -43,8 +43,24 @@ body {
     font-size: 18px;
     font-weight: bolder;
 }
-.logo:hover {
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 9999s, opacity 0.1s linear;
+  }
+.dropContent {
+      visibility: hidden;
+      position: absolute;
+  }
+.show {
+    visibility: visible;
+  }
+.navHidden {
+    background-color: black;
+    font-size: 30px;
+    text-decoration: none;
     color: white;
+    display: block;
 }
 #hero {
     height: 90vh;
@@ -246,7 +262,7 @@ h2 {
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;;
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: black;
     border-width: 1px;
 }
@@ -272,7 +288,7 @@ input {
     .navbar {
         padding-left: 2%;
     }
-    .navbar a {
+    .navLink {
         visibility: hidden;
         margin-left: 0;
     }
@@ -351,4 +367,5 @@ input {
     .contactContainer {
         margin-right: 10%;
         margin-left: 10%;
+    }   
 }

@@ -15,12 +15,20 @@
             <nav class="navbar">
                 <span class="logo">Logo.</span>
                 <span class="links">
-                    <a href="#hero">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#packages">Packages</a>
-                    <a href="#reviews">Reviews</a>
-                    <a href="#contact">Contact</a>
-                    <button class="navButton">Menu</button>
+                    <a class="navLink" href="#hero">Home</a>
+                    <a class="navLink" href="#about">About</a>
+                    <a class="navLink" href="#packages">Packages</a>
+                    <a class="navLink" href="#reviews">Reviews</a>
+                    <a class="navLink" href="#contact">Contact</a>
+                    <button class="navButton" id="navButton" onclick="dropDown()">Menu
+                        <div id="dropDown" class="dropContent">
+                            <a class="navHidden" href="#hero">Home</a>
+                            <a class="navHidden" href="#about">About</a>
+                            <a class="navHidden" href="#packages">Packages</a>
+                            <a class="navHidden" href="#reviews">Reviews</a>
+                            <a class="navHidden" href="#contact">Contact</a>
+                        </div>
+                    </button>
                 </span>
             </nav>
     </header>
@@ -113,7 +121,10 @@
                 <textarea class="message form" placeholder="Message"></textarea>
                 <button class="submit form" type="submit">Submit</button>
             </form>
+            <p>Email us: company@email.com</p>
+            <p>Phone us: (555)555-5555</p>
         </div>
     </section>
+    <script src="./src/index.js"></script>
 </body>
 </html>
