@@ -305,7 +305,10 @@ input {
         visibility: hidden;
         margin-left: 0;
     }
-    .navButton{
+    .links {
+        margin-right: 20%;
+    }
+    .navButton {
         visibility: visible;
         height: 25px;
         width: 50px;
