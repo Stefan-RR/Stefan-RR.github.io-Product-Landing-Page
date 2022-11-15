@@ -10,121 +10,135 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header id="header">
-            <nav class="navbar">
-                <span class="logo">Logo.</span>
-                <span class="links">
-                    <a class="navLink" href="#hero">Home</a>
-                    <a class="navLink" href="#about">About</a>
-                    <a class="navLink" href="#packages">Packages</a>
-                    <a class="navLink" href="#reviews">Reviews</a>
-                    <a class="navLink" href="#contact">Contact</a>
-                    <button class="navButton" id="navButton" onclick="dropDown()">▼
-                        <div id="dropDown" class="dropContent">
-                            <a class="navHidden" href="#hero">Home</a>
-                            <a class="navHidden" href="#about">About</a>
-                            <a class="navHidden" href="#packages">Packages</a>
-                            <a class="navHidden" href="#reviews">Reviews</a>
-                            <a class="navHidden" href="#contact">Contact</a>
+<body>"
+    <div id="bodyDiv">
+        <header id="header">
+                <nav class="navbar">
+                    <span class="logo">Logo.</span>
+                    <span class="links">
+                        <a class="navLink" href="#hero">Home</a>
+                        <a class="navLink" href="#about">About</a>
+                        <a class="navLink" href="#packages">Packages</a>
+                        <a class="navLink" href="#reviews">Reviews</a>
+                        <a class="navLink" href="#contact">Contact</a>
+                        <button class="navButton" id="navButton" onclick="dropDown()">Menu
+                            <div id="dropDown" class="dropContent">
+                                <a class="navHidden" href="#hero">Home</a>
+                                <a class="navHidden" href="#about">About</a>
+                                <a class="navHidden" href="#packages">Packages</a>
+                                <a class="navHidden" href="#reviews">Reviews</a>
+                                <a class="navHidden" href="#contact">Contact</a>
+                            </div>
+                        </button>
+                    </span>
+                </nav>
+        </header>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="caption">
+                        <h1>Landing Page for Your Product</h1>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla blanditiis, itaque dignissimos quia ducimus possimus, odio doloribus suscipit qui ad omnis deleniti tempore incidunt repellendus? Numquam expedita nobis hic fugiat.</p>
+                        <button class="heroButton">Order Now</button>
+                        <button class="heroButton">More Info</button>
+                    </div>
+                    <div class="image">
+                        <img class="heroImage" src="./src/Images/laptop.jpg" alt="Laptop with ambient wallpaper">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="aboutContainer">
+                <div class="aboutRow">
+                    <div class="aboutImageDiv">
+                        <img class="aboutImage" src="./src/Images/laptop2.jpg" alt="Top down view of laptop keyboard">
+                    </div> 
+                    <div class="aboutCaption">
+                        <h2>About your product</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo corporis expedita, temporibus nobis quo ipsa at quaerat quis aperiam illo ut inventore, officiis adipisci non a voluptate voluptatibus cupiditate.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas quod maxime perspiciatis iusto quae explicabo fugiat in quis facilis illum, dolorum asperiores deserunt veritatis culpa dolore eius velit tempore?</p>
+                        <h3>Quality.</h3>
+                        <h3>Performance.</h3>
+                        <h3>Guaranteed.</h3>
+                        <a href="#packages"><button class="aboutButton">View Packages</button></a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="packages">
+            <div class="packagesContainer">
+                <h2>Packages</h2>
+                <div class="packageRow">
+                    <div class="pack">
+                        <h3 class="ph3">Package 1</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                    <div class="pack">
+                        <h3 class="ph3">Package 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                    <div class="pack">
+                        <h3 class="ph3">Package 3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                </div>
+                <div class="packageRow">
+                    <div class="pack">
+                        <h3 class="ph3">Package 4</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                    <div class="pack">
+                        <h3 class="ph3">Package 5</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                    <div class="pack">
+                        <h3 class="ph3">Package 6</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="packButton">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews">
+            <div class="reviewsContainer">
+                <div class="reviewHeader">
+                    <h2>Reviews</h2>
+                </div>
+                    <div class="reviewContent">
+                        <button class="arrow" id="leftArrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="216" y1="128" x2="40" y2="128" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="112 56 40 128 112 200" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+                        </button>
+                        <div class="reviews">
+                            
                         </div>
-                    </button>
-                </span>
-            </nav>
-    </header>
-    <section id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="caption">
-                    <h1>Landing Page for Your Product</h1>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla blanditiis, itaque dignissimos quia ducimus possimus, odio doloribus suscipit qui ad omnis deleniti tempore incidunt repellendus? Numquam expedita nobis hic fugiat.</p>
-                    <button class="heroButton">Order Now</button>
-                    <button class="heroButton">More Info</button>
-                </div>
-                <div class="image">
-                    <img class="heroImage" src="./src/Images/laptop.jpg" alt="Laptop with ambient wallpaper">
+                        <button class="arrow" id="rightArrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="144 56 216 128 144 200" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="aboutContainer">
-            <div class="aboutRow">
-                <div class="aboutImageDiv">
-                    <img class="aboutImage" src="./src/Images/laptop2.jpg" alt="Top down view of laptop keyboard">
-                </div> 
-                <div class="aboutCaption">
-                    <h2>About your product</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo corporis expedita, temporibus nobis quo ipsa at quaerat quis aperiam illo ut inventore, officiis adipisci non a voluptate voluptatibus cupiditate.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas quod maxime perspiciatis iusto quae explicabo fugiat in quis facilis illum, dolorum asperiores deserunt veritatis culpa dolore eius velit tempore?</p>
-                    <h3>Quality.</h3>
-                    <h3>Performance.</h3>
-                    <h3>Guaranteed.</h3>
-                    <a href="#packages"><button class="aboutButton">View Packages</button></a>
-                </div> 
+        </section>
+        <section id="contact">
+            <div class="contactContainer">
+                <h2>Contact us</h2>
+                <form class="contactForm">
+                    <input class="name form" type="text" placeholder="Full Name">
+                    <input class="email form" type="email" placeholder="Email">
+                    <input class="phone form" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <textarea class="message form" placeholder="Message"></textarea>
+                    <button class="submit form" type="submit">Submit</button>
+                </form>
+                <p>Email us: company@email.com</p>
+                <p>Phone us: (555)555-5555</p>
             </div>
-        </div>
-    </section>
-    <section id="packages">
-        <div class="packagesContainer">
-            <h2>Packages</h2>
-            <div class="packageRow">
-                <div class="pack">
-                    <h3 class="ph3">Package 1</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-                <div class="pack">
-                    <h3 class="ph3">Package 2</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-                <div class="pack">
-                    <h3 class="ph3">Package 3</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-            </div>
-            <div class="packageRow">
-                <div class="pack">
-                    <h3 class="ph3">Package 4</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-                <div class="pack">
-                    <h3 class="ph3">Package 5</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-                <div class="pack">
-                    <h3 class="ph3">Package 6</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="packButton">Select</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="reviews">
-        <div class="reviewsContainer">
-            <h2>Reviews</h2>
-            <div class="review"></div>
-            <div class="reviewsDiv"></div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="contactContainer">
-            <h2>Contact us</h2>
-            <form class="contactForm">
-                <input class="name form" type="text" placeholder="Full Name">
-                <input class="email form" type="email" placeholder="Email">
-                <input class="phone form" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                <textarea class="message form" placeholder="Message"></textarea>
-                <button class="submit form" type="submit">Submit</button>
-            </form>
-            <p>Email us: company@email.com</p>
-            <p>Phone us: (555)555-5555</p>
-        </div>
-    </section>
-    <script src="./src/index.js"></script>
+        </section>
+        <script src="./src/index.js"></script>
+    </div>
 </body>
 </html>

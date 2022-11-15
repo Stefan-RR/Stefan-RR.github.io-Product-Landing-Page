@@ -37,10 +37,12 @@ body {
     color: coral;
 }
 .navButton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     visibility: hidden;
     min-height: 3px;
     background-color: white;
-    color: rgb(190, 187, 187);
+    color: rgb(163, 161, 161);
     border-style: none;
     border-radius: 3px;
 }
@@ -240,15 +242,24 @@ h2 {
     height: 75vh;
 }
 .reviewsContainer {
+    display: block;
     margin-right: 20%;
     margin-left: 20%;
     padding-top: 5%;
     text-align: center;
 }
-.review{
+.reviewContent{
     background-color: rgb(238, 238, 238);
     height: 400px;
-    width: 100px;
+    max-width: 600px; 
+    margin: auto;
+}
+.arrow {
+    border-style: none;
+    border-radius: 20px;
+}
+.arrow:hover {
+    background-color: white;
 }
 #contact {
     height: 75vh;
@@ -297,7 +308,7 @@ input {
     transition: .35s;
     border-color: black;
 }
-@media only screen and (min-width: 400px) and (max-width: 767px) {
+@media only screen and (min-width: 1px) and (max-width: 767px) {
     .navbar {
         padding-left: 2%;
         padding-right: 7%;
