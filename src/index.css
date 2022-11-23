@@ -227,6 +227,7 @@ h2 {
     padding: 12px;
     padding-right: 18px;
     padding-left: 18px;
+    margin-bottom: 5px;
 }
 .pack p {
     padding-left: 3%;
@@ -352,6 +353,9 @@ input {
         margin-right: auto;
         padding-top: 5%;
     }
+    .aboutButton {
+        margin-bottom: 20px;;
+    }
     .packagesContainer h2 {
         margin-top: 1%;
         margin-bottom: 1%;
@@ -365,10 +369,10 @@ input {
     }
     .pack {
         background-color: white;
-        height: 130px;
+        height: auto;
         width: 100%;
         margin: 10px;
-        border-radius: 5px;
+        border-radius: 5px; 
     }
     .pack h3 {
         margin-top: 1%;
@@ -384,11 +388,19 @@ input {
         height: 100vh;
     }
     #about {
-        height: 100vh;
+        height: auto;
     }
     #packages {
-        height: 120vh;
-        
+        height: auto;
+    }
+    #reviews{
+        height: auto;
+    }
+    .reviewContent {
+        margin-bottom: 20px;
+    }
+    #contact {
+        height: auto;
     }
     .contactContainer {
         margin-right: 10%;
