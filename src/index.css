@@ -293,9 +293,11 @@ h2 {
 }
 input {
     height: 40px;
+    padding-left: 3%;
 }
 .message {
     height: 100px;
+    padding-left: 3%;
 }
 .submit {
     background-color: black;
@@ -392,6 +394,7 @@ input {
     }
     #packages {
         height: auto;
+        padding-bottom: 10px;
     }
     #reviews{
         height: auto;
@@ -401,6 +404,7 @@ input {
     }
     #contact {
         height: auto;
+        padding-bottom: 10px;
     }
     .contactContainer {
         margin-right: 10%;
