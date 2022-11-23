@@ -216,6 +216,20 @@ h2 {
     margin: 10px;
     border-radius: 5px;
 }
+.reviewRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.review {
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
 .packButton {
     background-color: black;
     color: white;
@@ -255,12 +269,22 @@ h2 {
     max-width: 600px; 
     margin: auto;
 }
-.arrow {
-    border-style: none;
-    border-radius: 20px;
+.reviewHead {
+    display: flex;
+    align-items: middle;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-.arrow:hover {
-    background-color: white;
+.icon {
+    height: 30px; 
+    width: 30px;
+    margin-top: .75em;
+    padding-right: .25em;
+
+}
+.checked {
+    color: rgb(250, 210, 32);
 }
 #contact {
     height: 75vh;
@@ -372,7 +396,7 @@ input {
     .pack {
         background-color: white;
         height: auto;
-        width: 100%;
+        width: auto;
         margin: 10px;
         border-radius: 5px; 
     }
@@ -385,6 +409,24 @@ input {
     }
     .packButton {
         padding: 8px;
+    }
+    .reviewRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .review {
+        background-color: rgb(238, 238, 238);
+        height: auto;
+        width: auto;
+        margin: 10px;
+        border-radius: 5px; 
+    }
+    .reviewHead {
+        padding-left: 10%;
+        padding-right: 10%;;
     }
     #hero {
         height: 100vh;
