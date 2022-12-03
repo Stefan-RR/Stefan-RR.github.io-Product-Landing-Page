@@ -144,6 +144,10 @@ h2 {
     color: black;
     transition: .35s;
 }
+.heroA {
+    color: white;
+    text-decoration: none;
+}
 #about {
     height: 75vh;
 }
