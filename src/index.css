@@ -78,7 +78,8 @@ body {
     color: black;
 }
 #hero {
-    height: 90vh;
+    height: auto;
+    min-height: 100vh;
     background-color: black;
     background-repeat:no-repeat;
     background-size: cover;
@@ -149,7 +150,8 @@ h2 {
     text-decoration: none;
 }
 #about {
-    height: 75vh;
+    height: auto;
+    min-height: 75vh;
 }
 .aboutContainer {
     display: flex;
@@ -187,6 +189,7 @@ h2 {
     padding-right: 22px;
     padding-left: 22px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .aboutButton:hover {
     background-color: black;
@@ -194,7 +197,8 @@ h2 {
     transition: .35s;
 }
 #packages {
-    height: 75vh;
+    height: auto;
+    min-height: 75vh;
     background-color: rgb(238, 238, 238);
 }
 .packagesContainer {
@@ -258,7 +262,8 @@ h2 {
     border-color: black;
 }
 #reviews {
-    height: 75vh;
+    height: auto;
+    min-height: 75vh;
 }
 .reviewsContainer {
     display: block;
@@ -291,7 +296,8 @@ h2 {
     color: rgb(250, 210, 32);
 }
 #contact {
-    height: 75vh;
+    height: auto;
+    min-height: 75vh;
     background-color: rgb(238, 238, 238);
 }
 .contactContainer {
