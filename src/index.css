@@ -83,6 +83,7 @@ body {
     color: white;
 }
 .container {
+    display: block;
     max-width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -230,10 +231,11 @@ h2 {
 .reviewRow {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;    
     text-align: center;
 }
 .review {
+    display: inline-block;
     background-color: rgb(238, 238, 238);
     height: 200px;
     width: 300px;
