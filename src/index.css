@@ -504,7 +504,7 @@ input {
         padding-right: 10%;;
     }
     #hero {
-        height: 100vh;
+        height: auto;
     }
     #about {
         height: auto;
