@@ -17,21 +17,25 @@
                 <nav class="navbar">
                     <span class="logo">Logo.</span>
                     <span class="links">
-                        <a class="navLink" href="#hero">Home</a>
-                        <a class="navLink" href="#about">About</a>
-                        <a class="navLink" href="#packages">Packages</a>
-                        <a class="navLink" href="#reviews">Reviews</a>
-                        <a class="navLink" href="#contact">Contact</a>
-                        <button class="navButton" id="navButton" onclick="dropDown()">Menu
-                            <div id="dropDown" class="dropContent">
-                                <a class="navHidden" href="#hero">Home</a>
-                                <a class="navHidden" href="#about">About</a>
-                                <a class="navHidden" href="#packages">Packages</a>
-                                <a class="navHidden" href="#reviews">Reviews</a>
-                                <a class="navHidden" href="#contact">Contact</a>
-                            </div>
-                        </button>
+                        <a class="nav-link" href="#hero">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#packages">Packages</a>
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </span>
+                        <div class="button-box" onclick="dropDown()">
+                            <div class="bar top"></div>
+                            <div class="bar mid"></div>
+                            <div class="bar bot"></div>
+                        </div>
+                        <div id="dropDown" class="drop-content">
+                            <a class="nav-hidden" href="#hero">Home</a>
+                            <a class="nav-hidden" href="#about">About</a>
+                            <a class="nav-hidden" href="#packages">Packages</a>
+                            <a class="nav-hidden" href="#reviews">Reviews</a>
+                            <a class="nav-hidden" href="#contact">Contact</a>
+                        </div>
+                    
                 </nav>
         </header>
         <section id="hero">
@@ -40,80 +44,80 @@
                     <div class="caption">
                         <h1>Landing Page for Your Product</h1>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla blanditiis, itaque dignissimos quia ducimus possimus, odio doloribus suscipit qui ad omnis deleniti tempore incidunt repellendus? Numquam expedita nobis hic fugiat.</p>
-                        <a class="heroA" href="#about">More Info</a>
-                        <a class="heroA" href="#packages">Order Now</a>
+                        <a class="hero-a" href="#about">More Info</a>
+                        <a class="hero-a" href="#packages">Order Now</a>
                     </div>
                     <div class="image">
-                        <img class="heroImage" src="./src/Images/laptop.jpg" alt="Laptop with ambient wallpaper">
+                        <img class="hero-image" src="./src/Images/laptop.jpg" alt="Laptop with ambient wallpaper">
                     </div>
                 </div>
             </div>
         </section>
         <section id="about">
-            <div class="aboutContainer">
-                <div class="aboutRow">
-                    <div class="aboutImageDiv">
-                        <img class="aboutImage" src="./src/Images/laptop2.jpg" alt="Top down view of laptop keyboard">
+            <div class="about-container">
+                <div class="about-row">
+                    <div class="about-image-div">
+                        <img class="about-image" src="./src/Images/laptop2.jpg" alt="Top down view of laptop keyboard">
                     </div> 
-                    <div class="aboutCaption">
+                    <div class="about-caption">
                         <h2>About your product</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo corporis expedita, temporibus nobis quo ipsa at quaerat quis aperiam illo ut inventore, officiis adipisci non a voluptate voluptatibus cupiditate.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas quod maxime perspiciatis iusto quae explicabo fugiat in quis facilis illum, dolorum asperiores deserunt veritatis culpa dolore eius velit tempore?</p>
                         <h3>Quality.</h3>
                         <h3>Performance.</h3>
                         <h3>Guaranteed.</h3>
-                        <a class="aboutButton" href="#packages">View Packages</a>
+                        <a class="about-button" href="#packages">View Packages</a>
                     </div> 
                 </div>
             </div>
         </section>
         <section id="packages">
-            <div class="packagesContainer">
+            <div class="packages-container">
                 <h2>Packages</h2>
-                <div class="packageRow">
+                <div class="package-row">
                     <div class="pack">
                         <h3 class="ph3">Package 1</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                     <div class="pack">
                         <h3 class="ph3">Package 2</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                     <div class="pack">
                         <h3 class="ph3">Package 3</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                 </div>
-                <div class="packageRow">
+                <div class="package-row">
                     <div class="pack">
                         <h3 class="ph3">Package 4</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                     <div class="pack">
                         <h3 class="ph3">Package 5</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                     <div class="pack">
                         <h3 class="ph3">Package 6</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a class="packButton">Select</a>
+                        <a class="pack-button">Select</a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="reviews">
-            <div class="reviewsContainer">
-                <div class="reviewHeader">
+            <div class="reviews-container">
+                <div class="review-header">
                     <h2>Reviews</h2>
                 </div>
-                <div class="reviewRow">
+                <div class="review-row">
                     <div class="review">
-                        <div class ="reviewHead">
+                        <div class ="review-head">
                             <img src="./src/Images/user.png" class="icon">
                             <h3 class="ph3">User 1</h3>
                         </div>
@@ -125,7 +129,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="review">
-                        <div class ="reviewHead">
+                        <div class ="review-head">
                             <img src="./src/Images/user.png" class="icon">
                             <h3 class="ph3">User 2</h3>
                         </div>
@@ -137,9 +141,9 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div class="reviewRow">
+                <div class="review-row">
                     <div class="review">
-                        <div class ="reviewHead">
+                        <div class ="review-head">
                             <img src="./src/Images/user.png" class="icon">
                             <h3 class="ph3">User 3</h3>
                         </div>
@@ -151,7 +155,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <div class="review">
-                        <div class ="reviewHead">
+                        <div class ="review-head">
                             <img src="./src/Images/user.png" class="icon">
                             <h3 class="ph3">User 4</h3>
                         </div>
@@ -166,9 +170,9 @@
             </div>
         </section>
         <section id="contact">
-            <div class="contactContainer">
+            <div class="contact-container">
                 <h2>Contact us</h2>
-                <form class="contactForm">
+                <form class="contact-form">
                     <input class="name form" type="text" placeholder="Full Name">
                     <input class="email form" type="email" placeholder="Email">
                     <input class="phone form" type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
